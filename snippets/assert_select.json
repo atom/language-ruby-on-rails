@@ -1,0 +1,6 @@
+{
+  "content": "assert_select '${1:path}'${2:, :${3:text} => ${4:'${5:inner_html}'}}${6: do\n\t$0\nend}",
+  "name": "assert_select",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "ass"
+}

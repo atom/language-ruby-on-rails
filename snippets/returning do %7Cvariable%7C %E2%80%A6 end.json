@@ -1,0 +1,6 @@
+{
+  "content": "returning ${1:variable} do${2/(^(?<var>\\s*[a-z_][a-zA-Z0-9_]*\\s*)(,\\g<var>)*,?\\s*$)|.*/(?1: |)/}${2:v}${2/(^(?<var>\\s*[a-z_][a-zA-Z0-9_]*\\s*)(,\\g<var>)*,?\\s*$)|.*/(?1:|)/}\n\t$0\nend",
+  "name": "returning do |variable| … end",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "returning"
+}

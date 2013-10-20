@@ -1,0 +1,6 @@
+{
+  "content": "redirect_to :back",
+  "name": "redirect_to :back",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "reb"
+}

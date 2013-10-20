@@ -1,0 +1,6 @@
+{
+  "content": "find_in_batches(${1::conditions => {:${2:field} => ${3:true}\\}}) do |${4:${TM_CURRENT_WORD/(\\w+)\\./\\L$1/g}}s|\n\t$4s.each do |$4|\n\t\t$0\n\tend\nend",
+  "name": "find_in_batches",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "finb"
+}

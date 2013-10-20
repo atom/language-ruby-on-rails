@@ -1,0 +1,6 @@
+{
+  "content": "render :partial => \"${1:item}\", :status => ${2:500}",
+  "name": "render (partial, status)",
+  "scope": "source.ruby.rails, text.html.ruby, text.haml",
+  "tabTrigger": "rps"
+}

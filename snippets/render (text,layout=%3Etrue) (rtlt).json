@@ -1,0 +1,6 @@
+{
+  "content": "render :text => \"${1:text to render...}\", :layout => ${2:true}",
+  "name": "render (text, layout => true)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rtlt"
+}

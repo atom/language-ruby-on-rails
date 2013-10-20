@@ -1,0 +1,6 @@
+{
+  "content": "render :file => \"${1:filepath}\"",
+  "name": "render (file)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rf"
+}

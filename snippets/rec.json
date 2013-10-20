@@ -1,0 +1,6 @@
+{
+  "content": "redirect_to :controller => \"${1:items}\"",
+  "name": "redirect_to (controller)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rec"
+}

@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/jump_to_method_definition.rb\"",
+  "fallbackInput": "word",
+  "input": "selection",
+  "keyEquivalent": "^f",
+  "name": "Jump to Method Definition",
+  "output": "showAsTooltip",
+  "scope": "source.ruby.rails, text.html.ruby, text.haml, source.ruby"
+}

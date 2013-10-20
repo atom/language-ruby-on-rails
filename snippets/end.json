@@ -1,0 +1,6 @@
+{
+  "content": "<% end %>",
+  "name": "end (ERB)",
+  "scope": "text.html.ruby",
+  "tabTrigger": "end"
+}

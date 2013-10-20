@@ -1,0 +1,6 @@
+{
+  "content": "assert_response :${1:success}${2:, @response.body}$0",
+  "name": "assert_response",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "asre"
+}

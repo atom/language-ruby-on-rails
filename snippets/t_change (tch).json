@@ -1,0 +1,6 @@
+{
+  "content": "t.change :${1:name}${2:, :${3:string}${4:, :${5:limit} => ${6:80}}}\nt.$0",
+  "name": "t.change (tch)",
+  "scope": "meta.rails.migration.change_table",
+  "tabTrigger": "t."
+}

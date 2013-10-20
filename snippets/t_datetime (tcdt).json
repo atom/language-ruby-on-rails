@@ -1,0 +1,6 @@
+{
+  "content": "t.datetime :${1:title}\nt.$0",
+  "name": "t.datetime (tcdt)",
+  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
+  "tabTrigger": "t."
+}

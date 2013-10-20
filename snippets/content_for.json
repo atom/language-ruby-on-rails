@@ -1,0 +1,6 @@
+{
+  "content": "<% content_for :${1:yield_label_in_layout} do -%>\n\t$0\n<% end -%>",
+  "name": "content_for",
+  "scope": "text.html.ruby",
+  "tabTrigger": "conf"
+}

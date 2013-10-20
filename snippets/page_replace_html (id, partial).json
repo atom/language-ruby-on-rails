@@ -1,0 +1,6 @@
+{
+  "content": "page.replace_html ${1:\"${2:id}\"}, :${3:partial => \"${4:template}\"}",
+  "name": "page.replace_html (id, partial)",
+  "scope": "source.ruby.rails.rjs",
+  "tabTrigger": "reph"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Symbol List: Table Names",
+  "scope": "meta.rails.migration.create_table",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/([^\"]*\")([^\"]*)(\".*)/$2/"
+  }
+}

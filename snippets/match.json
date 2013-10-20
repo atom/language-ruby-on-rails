@@ -1,0 +1,6 @@
+{
+  "content": "match '${1:${2::controller}${3:/${4::action}${5:/${6::id}${7:(.:format)}}}}'${8: => '${9:$2}#${10:$4}'${11:, :as => :${12:$10}}}",
+  "name": "match",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "match"
+}

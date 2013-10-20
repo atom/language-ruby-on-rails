@@ -1,0 +1,6 @@
+{
+  "content": "mattr_accessor :${0:attr_names}",
+  "name": "mattr_accessor",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "mrw"
+}

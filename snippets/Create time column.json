@@ -1,0 +1,6 @@
+{
+  "content": "t.time :${1:title}\n$0",
+  "name": "Table column time",
+  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
+  "tabTrigger": "tcti"
+}

@@ -1,0 +1,6 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1:model}.${2:name}, ${3:${4:$1}_path(${14:$1})}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "link_to model",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "lt"
+}

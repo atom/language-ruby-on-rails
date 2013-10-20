@@ -1,0 +1,6 @@
+{
+  "content": "logger.info { \"${1:message}\" }$0",
+  "name": "logger.info",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "logi"
+}

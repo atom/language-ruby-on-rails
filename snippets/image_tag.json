@@ -1,0 +1,6 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}image_tag \"$1${2:.png}\"${3:${4:, :title => \"${5:title}\"}${6:, :class => \"${7:class}\"}}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "image_tag",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "it"
+}

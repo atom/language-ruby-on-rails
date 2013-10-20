@@ -1,0 +1,6 @@
+{
+  "content": "<% if ${1:condition} %>$0",
+  "name": "if (ERB)",
+  "scope": "text.html.ruby",
+  "tabTrigger": "if"
+}

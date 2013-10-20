@@ -1,0 +1,6 @@
+{
+  "content": "render :action => \"${1:action}\", :layout => \"${2:layoutname}\"",
+  "name": "render (action, layout)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "ral"
+}

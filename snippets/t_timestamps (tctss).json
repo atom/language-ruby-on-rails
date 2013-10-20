@@ -1,0 +1,6 @@
+{
+  "content": "t.timestamps\nt.$0",
+  "name": "t.timestamps (tctss)",
+  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
+  "tabTrigger": "t."
+}

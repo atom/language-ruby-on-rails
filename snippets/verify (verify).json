@@ -1,0 +1,7 @@
+{
+  "bundlePath": "/Users/tobi/Library/Application Support/TextMate/Bundles/Custom.tmbundle",
+  "content": "verify :only => [:$1], :method => :post, :render => {:status => 500, :text => \"use HTTP-POST\"}\n",
+  "name": "verify — render",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "verify"
+}

@@ -1,0 +1,6 @@
+{
+  "content": "def test_should_get_${1:action}\n\t${2:@${3:model} = ${4:$3s}(:${5:fixture_name})\n\t}get :${1}${6:, :id => @$3.to_param}\n\tassert_response :success\n\t$0\nend",
+  "name": "def test_should_get_action",
+  "scope": "meta.rails.functional_test",
+  "tabTrigger": "deftg"
+}

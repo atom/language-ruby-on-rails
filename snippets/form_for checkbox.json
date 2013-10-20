@@ -1,0 +1,6 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.check_box :${1:attribute}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "f.check_box (ffcb)",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "f."
+}

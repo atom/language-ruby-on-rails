@@ -1,0 +1,6 @@
+{
+  "content": "render :partial => \"${1:item}\", :object => ${2:@$1}",
+  "name": "render (partial, object)",
+  "scope": "source.ruby.rails, text.html.ruby, text.haml",
+  "tabTrigger": "rpo"
+}

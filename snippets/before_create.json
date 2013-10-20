@@ -1,0 +1,6 @@
+{
+  "content": "before_create ",
+  "name": "before_create",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "befc"
+}

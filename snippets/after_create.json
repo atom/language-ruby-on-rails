@@ -1,0 +1,6 @@
+{
+  "content": "after_create ",
+  "name": "after_create",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "aftc"
+}

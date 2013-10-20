@@ -1,0 +1,6 @@
+{
+  "content": "page.insert_html :${1:top}, ${2:\"${3:id}\"}, :${4:partial => \"${5:template}\"}",
+  "name": "page.insert_html (position, id, partial)",
+  "scope": "source.ruby.rails.rjs",
+  "tabTrigger": "ins"
+}

@@ -1,0 +1,6 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.hidden_field :${1:attribute}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "form_for hidden_field",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "ffhf"
+}

@@ -1,0 +1,6 @@
+{
+  "content": "format.${1:html|xml|json|js|any} { $0 }",
+  "name": "format (respond_with)",
+  "scope": "meta.rails.controller",
+  "tabTrigger": "format"
+}

@@ -1,0 +1,9 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/show_schema.rb\"\n",
+  "input": "none",
+  "keyEquivalent": "^@S",
+  "name": "Show DB Schema for Current Class",
+  "output": "showAsTooltip",
+  "scope": "source.ruby.rails"
+}

@@ -1,0 +1,6 @@
+{
+  "content": "${1:map}.resource :${2:resource}${10: do |${11:$2}|\n  $0\nend}",
+  "name": "map.resource",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "mapr"
+}

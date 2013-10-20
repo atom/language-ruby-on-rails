@@ -1,0 +1,9 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb\" helper",
+  "input": "none",
+  "keyEquivalent": "~$@",
+  "name": "Go to Helper",
+  "output": "showAsTooltip",
+  "scope": "text.html.ruby, source.ruby.rails.embedded.html, meta.rails.controller, meta.rails.model, meta.rails.unit_test, meta.rails.functional_test, text.haml"
+}

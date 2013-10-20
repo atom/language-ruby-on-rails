@@ -1,0 +1,6 @@
+{
+  "content": "validates_confirmation_of :${1:attribute}${2:, :on => :${3:create}, :message => \"${4:should match confirmation}\"}",
+  "name": "validates_confirmation_of",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "vc"
+}

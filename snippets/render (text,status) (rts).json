@@ -1,0 +1,6 @@
+{
+  "content": "render :text => \"${1:text to render...}\", :status => ${2:401}",
+  "name": "render (text, status)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rts"
+}

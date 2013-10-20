@@ -1,0 +1,6 @@
+{
+  "content": "assert_difference \"${1:Model}.${2:count}\", ${3:+1} do\n  $0\nend",
+  "name": "assert_difference",
+  "scope": "source.ruby",
+  "tabTrigger": "asd"
+}

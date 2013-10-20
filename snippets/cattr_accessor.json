@@ -1,0 +1,6 @@
+{
+  "content": "cattr_accessor :${0:attr_names}",
+  "name": "cattr_accessor",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "crw"
+}

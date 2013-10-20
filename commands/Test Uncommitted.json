@@ -1,0 +1,9 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env bash\n. \"$TM_BUNDLE_SUPPORT/lib/rvm/rvm_textmate\"\n\nRUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/rake_helper.rb\" test:uncommitted",
+  "input": "none",
+  "keyEquivalent": "^\\",
+  "name": "Test Uncommitted",
+  "output": "showAsHTML",
+  "scope": "source.ruby.rails, source.yaml"
+}

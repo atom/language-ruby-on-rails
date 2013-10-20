@@ -1,0 +1,6 @@
+{
+  "content": "before_destroy ",
+  "name": "before_destroy",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "befd"
+}

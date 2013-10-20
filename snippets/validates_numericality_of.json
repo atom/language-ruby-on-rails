@@ -1,0 +1,6 @@
+{
+  "content": "validates_numericality_of :${1:attribute}${2:, :on => :${3:create}, :message => \"${4:is not a number}\"}",
+  "name": "validates_numericality_of",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "vn"
+}

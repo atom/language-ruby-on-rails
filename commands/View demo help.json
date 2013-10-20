@@ -1,0 +1,9 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": ". \"$TM_SUPPORT_PATH/lib/webpreview.sh\"\nhtml_header \"Ruby on Rails Bundle Help\" \"Ruby on Rails\"\ncat \"$TM_BUNDLE_SUPPORT/../website/demo.html\"\nhtml_footer\n\n",
+  "input": "none",
+  "keyEquivalent": "^h",
+  "name": "View demo help",
+  "output": "showAsHTML",
+  "scope": "source.ruby.rails"
+}

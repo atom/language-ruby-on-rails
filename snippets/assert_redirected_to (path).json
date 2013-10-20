@@ -1,0 +1,6 @@
+{
+  "content": "assert_redirected_to ${2:${12:model}_path(${13:@}${14:${12}})}",
+  "name": "assert_redirected_to (path)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "asrt"
+}

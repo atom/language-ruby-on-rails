@@ -1,0 +1,6 @@
+{
+  "content": "map(&:${1:id})",
+  "name": "map(&:sym_proc)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "mp"
+}

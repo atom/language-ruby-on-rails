@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "saveModifiedFiles",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/create_partial_from_selection.rb\"\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "^H",
+  "name": "Create Partial From Selection",
+  "output": "replaceSelectedText",
+  "scope": "source.ruby.rails, text.html.ruby, text.haml"
+}

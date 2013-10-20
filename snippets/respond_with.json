@@ -1,0 +1,6 @@
+{
+  "content": "respond_with(${1:@${2:model}})${3: do |format|\n  format.${4:html} { $0 \\}\nend}",
+  "name": "respond_with",
+  "scope": "meta.rails.controller",
+  "tabTrigger": "resw"
+}

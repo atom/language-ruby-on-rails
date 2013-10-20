@@ -1,0 +1,6 @@
+{
+  "content": "render :inline => \"${1:<%= 'hello' %>}\"",
+  "name": "render (inline)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "ri"
+}

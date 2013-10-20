@@ -1,0 +1,6 @@
+{
+  "content": "scoped_by_${1:attribute}(${2:id})",
+  "name": "scoped_by",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "sb"
+}

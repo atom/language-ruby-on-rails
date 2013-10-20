@@ -1,0 +1,6 @@
+{
+  "content": "assert_redirected_to ${2::action => \"${1:index}\"}",
+  "name": "assert_redirected_to",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "asrt"
+}

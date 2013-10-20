@@ -1,0 +1,6 @@
+{
+  "content": "render :text => \"${1:text to render...}\"",
+  "name": "render (text)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rt"
+}

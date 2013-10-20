@@ -1,0 +1,6 @@
+{
+  "content": "render :nothing => ${1:true}",
+  "name": "render (nothing)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rn"
+}

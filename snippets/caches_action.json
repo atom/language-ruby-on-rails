@@ -1,0 +1,6 @@
+{
+  "content": "caches_action :${1:action}",
+  "name": "caches_action",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "cache"
+}

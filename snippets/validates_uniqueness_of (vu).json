@@ -1,0 +1,6 @@
+{
+  "content": "validates_uniqueness_of :${1:attribute}${2:, :on => :${3:create}, :message => \"${4:must be unique}\"}",
+  "name": "validates_uniqueness_of",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "vu"
+}

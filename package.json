@@ -1,0 +1,17 @@
+{
+  "name": "ruby-on-rails-tmbundle",
+  "version": "0.0.0",
+  "description": "Ruby on Rails language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://atom.github.io/language-ruby-on-rails",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom/language-ruby-on-rails.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/language-ruby-on-rails/issues"
+  }
+}

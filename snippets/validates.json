@@ -1,0 +1,6 @@
+{
+  "content": "validates :${1:attribute}${2:,  :acceptance => ${3:true}}${4:,\n                                :confirmation => ${5:true}}${6:,\n                                :exclusion => { :in => ${7:%w( ${8:mov avi} )} \\}}${9:,\n                                :inclusion => { :in => ${10:%w( ${11:mov avi} )} \\}}${12:,\n                                :format => { :with => /${13:^[${14:\\w\\d}]+\\$}/ \\}}${15:,\n                                :length => { :minimum => ${16:0}, :maximum => ${17:0}, }}${18:,\n                                :numericality => ${19:true}}${20:,\n                                :presence => ${21:true}}${22:,\n                                :uniqueness => ${23:true}}",
+  "name": "validates",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "v"
+}

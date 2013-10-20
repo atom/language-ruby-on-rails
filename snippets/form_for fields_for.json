@@ -1,0 +1,6 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_INLINE}f.fields_for :${1:attribute} do |${2:f}|${TM_RAILS_TEMPLATE_END_RUBY_INLINE}\n\t$0\n${TM_RAILS_TEMPLATE_END_RUBY_BLOCK}",
+  "name": "form_for fields_for",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "nff"
+}

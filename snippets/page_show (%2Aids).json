@@ -1,0 +1,6 @@
+{
+  "content": "page.show ${1:\"${2:id(s)}\"}",
+  "name": "page.show (*ids)",
+  "scope": "source.ruby.rails.rjs",
+  "tabTrigger": "show"
+}

@@ -1,0 +1,6 @@
+{
+  "content": "before_filter :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}",
+  "name": "before_filter",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "bf"
+}

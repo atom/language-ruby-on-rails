@@ -1,0 +1,6 @@
+{
+  "content": "require 'test_helper'\n\nclass ${1:Model}ControllerTest < ActionController::TestCase\n\ttest$0\nend\n",
+  "name": "Create functional test class",
+  "scope": "source.ruby",
+  "tabTrigger": "cla"
+}

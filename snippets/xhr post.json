@@ -1,0 +1,6 @@
+{
+  "content": "xhr :post, :${1:create}, :${2:object} => { $3 }",
+  "name": "xhr post",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "xpost"
+}

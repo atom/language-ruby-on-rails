@@ -1,0 +1,6 @@
+{
+  "content": "class ${1:Model}Controller < ApplicationController\n\tbefore_filter :find_${2:model}\n\n\t$0\n\n\tprivate\n\tdef find_${2}\n\t\t@$2 = ${3:$1}.find(params[:id]) if params[:id]\n\tend\nend",
+  "name": "Create controller class",
+  "scope": "source.ruby",
+  "tabTrigger": "cla"
+}

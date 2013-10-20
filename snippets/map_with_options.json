@@ -1,0 +1,6 @@
+{
+  "content": "${1:map}.with_options :${2:controller} => '${3:thing}' do |${4:$3}|\n\t$0\nend\n",
+  "name": "map.with_options",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "mapwo"
+}

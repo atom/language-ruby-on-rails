@@ -1,0 +1,6 @@
+{
+  "content": "scope :${1:name}, lambda { |${2:param}| ${3:where(${4::${5:field} => ${6:\"${7:value}\"}})} }",
+  "name": "scope lambda",
+  "scope": "meta.rails.model",
+  "tabTrigger": "scopel"
+}

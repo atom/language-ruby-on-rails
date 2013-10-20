@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/fixture_auto_complete.rb\" ",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "~\u001b",
+  "name": "Autocomplete Foreign Key Fixture Reference",
+  "output": "insertAsSnippet",
+  "scope": "source.yaml, meta.rails.unit_test, meta.rails.functional_test"
+}
