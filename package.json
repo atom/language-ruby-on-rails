@@ -1,5 +1,5 @@
 {
-  "name": "ruby-on-rails-tmbundle",
+  "name": "language-ruby-on-rails",
   "version": "0.1.0",
   "description": "Ruby on Rails language support in Atom",
   "engines": {
