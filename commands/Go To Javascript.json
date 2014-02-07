@@ -1,9 +1,0 @@
-{
-  "beforeRunningCommand": "nop",
-  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb\" javascript",
-  "input": "none",
-  "keyEquivalent": "~$@",
-  "name": "Go to Javascript",
-  "output": "showAsTooltip",
-  "scope": "text.html.ruby, source.ruby.rails.embedded.html, meta.rails.controller, meta.rails.helper, text.haml"
-}

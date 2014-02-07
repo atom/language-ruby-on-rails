@@ -1,9 +1,0 @@
-{
-  "beforeRunningCommand": "nop",
-  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb\" fixture",
-  "input": "none",
-  "keyEquivalent": "~$@",
-  "name": "Go to Fixture",
-  "output": "showAsTooltip",
-  "scope": "meta.rails.controller, meta.rails.helper, meta.rails.model, meta.rails.unit_test, meta.rails.functional_test"
-}

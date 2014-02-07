@@ -1,9 +1,0 @@
-{
-  "beforeRunningCommand": "saveActiveFile",
-  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb\"",
-  "input": "none",
-  "keyEquivalent": "~@",
-  "name": "Alternate File",
-  "output": "showAsTooltip",
-  "scope": "source.ruby.rails, text.html.ruby, source.ruby.rails.embedded.html, source.yaml, text.haml, source.css, source.js, source.sass"
-}

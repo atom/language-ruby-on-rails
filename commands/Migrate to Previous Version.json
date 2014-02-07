@@ -1,9 +1,0 @@
-{
-  "beforeRunningCommand": "nop",
-  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\n# Find the previous version number from the schema.rb file\nexport CURRENT=`grep 'Schema\\.define' \"$TM_PROJECT_DIRECTORY/db/schema.rb\" | ruby -e 'print $stdin.read.scan(/\\d+/).first'`\n\n# Migrate database to the previous version\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/rake_helper.rb\" db:migrate:down -v VERSION -a $CURRENT\n",
-  "input": "none",
-  "keyEquivalent": "^|",
-  "name": "Migrate to Previous Version",
-  "output": "showAsHTML",
-  "scope": "source.ruby.rails, source.yaml"
-}

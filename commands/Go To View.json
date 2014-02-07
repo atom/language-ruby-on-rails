@@ -1,9 +1,0 @@
-{
-  "beforeRunningCommand": "nop",
-  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb\" view",
-  "input": "none",
-  "keyEquivalent": "~$@",
-  "name": "Go to View",
-  "output": "showAsTooltip",
-  "scope": "meta.rails.controller, meta.rails.mailer, source.js, source.css"
-}

@@ -1,9 +1,0 @@
-{
-  "beforeRunningCommand": "nop",
-  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/go_to_file_on_current_line.rb\"",
-  "input": "none",
-  "keyEquivalent": "~@",
-  "name": "File on Current Line",
-  "output": "showAsTooltip",
-  "scope": "source.ruby.rails, text.html.ruby, source.ruby.rails.embedded.html, text.haml"
-}
