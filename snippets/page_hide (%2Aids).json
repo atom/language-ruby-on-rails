@@ -1,6 +1,0 @@
-{
-  "content": "page.hide ${1:\"${2:id(s)}\"}",
-  "name": "page.hide (*ids)",
-  "scope": "source.ruby.rails.rjs",
-  "tabTrigger": "hide"
-}

@@ -1,6 +1,0 @@
-{
-  "content": "validates_associated :${1:attribute}${2:, :on => :${3:create}, :if => proc { |obj| ${5:obj.condition?} }}",
-  "name": "validates_associated if",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "vaif"
-}

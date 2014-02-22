@@ -1,6 +1,0 @@
-{
-  "content": "default_scope ${1:order(${2:'${3:created_at DESC}'})}",
-  "name": "default_scope",
-  "scope": "meta.rails.model",
-  "tabTrigger": "dscope"
-}

@@ -1,6 +1,0 @@
-{
-  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}error_messages_for :${1:model}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}\n\n${TM_RAILS_TEMPLATE_START_RUBY_INLINE}form_for @${2:$1} do |f|${TM_RAILS_TEMPLATE_END_RUBY_INLINE}\n  $0\n${TM_RAILS_TEMPLATE_END_RUBY_BLOCK}",
-  "name": "form_for with errors",
-  "scope": "text.html.ruby, text.haml",
-  "tabTrigger": "ffe"
-}

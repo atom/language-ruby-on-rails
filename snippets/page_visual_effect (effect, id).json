@@ -1,6 +1,0 @@
-{
-  "content": "page.visual_effect :${1:toggle_slide}, ${2:\"${3:DOM ID}\"}",
-  "name": "page.visual_effect (effect, id)",
-  "scope": "source.ruby.rails.rjs",
-  "tabTrigger": "vis"
-}

@@ -1,6 +1,0 @@
-{
-  "content": "find(${1:id})",
-  "name": "find(id)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "fini"
-}

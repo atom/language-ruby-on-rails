@@ -1,6 +1,0 @@
-{
-  "content": "render :nothing => ${1:true}, :status => ${2:401}",
-  "name": "render (nothing, status)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "rns"
-}

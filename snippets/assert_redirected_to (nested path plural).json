@@ -1,6 +1,0 @@
-{
-  "content": "assert_redirected_to ${10:${2:parent}_${3:child}_path(${4:@}${5:${2}})}",
-  "name": "assert_redirected_to (nested path plural)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "asrt"
-}

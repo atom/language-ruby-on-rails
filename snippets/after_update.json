@@ -1,6 +1,0 @@
-{
-  "content": "after_update ",
-  "name": "after_update",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "aftu"
-}

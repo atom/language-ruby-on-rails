@@ -1,6 +1,0 @@
-{
-  "content": "render :inline => \"${1:<%= 'hello' %>}\", :type => ${2::rxml}",
-  "name": "render (inline, type)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "rit"
-}

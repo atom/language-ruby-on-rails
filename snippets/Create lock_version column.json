@@ -1,6 +1,0 @@
-{
-  "content": "t.integer :lock_version, :null => false, :default => 0\n$0",
-  "name": "Table column lock_version",
-  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
-  "tabTrigger": "tcl"
-}

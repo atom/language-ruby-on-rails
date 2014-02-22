@@ -1,6 +1,0 @@
-{
-  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to_function ${1:\"${2:Greeting}\"}, \"${3:alert('Hello world!')}\"$4${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
-  "name": "link_to_function",
-  "scope": "text.html.ruby, text.haml",
-  "tabTrigger": "lf"
-}

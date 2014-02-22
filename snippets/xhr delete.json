@@ -1,6 +1,0 @@
-{
-  "content": "xhr :delete, :${1:destroy}, :id => ${2:1}$0",
-  "name": "xhr delete",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "xdelete"
-}

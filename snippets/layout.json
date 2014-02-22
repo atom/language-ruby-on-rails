@@ -1,6 +1,0 @@
-{
-  "content": "layout \"${1:template_name}\"${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}",
-  "name": "layout",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "layout"
-}

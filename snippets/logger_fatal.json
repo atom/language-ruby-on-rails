@@ -1,6 +1,0 @@
-{
-  "content": "logger.fatal { \"${1:message}\" }$0",
-  "name": "logger.fatal",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "logf"
-}

@@ -1,6 +1,0 @@
-{
-  "content": "${1:map}.${2:connect} '${3::controller/:action/:id}'",
-  "name": "map.named_route",
-  "scope": "meta.rails.routes",
-  "tabTrigger": "map"
-}

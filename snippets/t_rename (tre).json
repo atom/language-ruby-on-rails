@@ -1,6 +1,0 @@
-{
-  "content": "t.rename :${1:old_column_name}, :${2:new_column_name}\nt.$0",
-  "name": "t.rename (tre)",
-  "scope": "meta.rails.migration.change_table",
-  "tabTrigger": "t."
-}

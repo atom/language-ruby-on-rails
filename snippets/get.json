@@ -1,6 +1,0 @@
-{
-  "content": "get '${1:recent}'${2:, :on => :${3:collection}}",
-  "name": "get :on => :collection",
-  "scope": "meta.rails.routes",
-  "tabTrigger": "get"
-}

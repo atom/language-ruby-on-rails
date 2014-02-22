@@ -1,6 +1,0 @@
-{
-  "content": "Rails.logger.debug \"${1:message}\"",
-  "name": "Rails.logger.debug",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "deb"
-}

@@ -1,6 +1,0 @@
-{
-  "content": "t.string :${1:title}\n$0",
-  "name": "Table column string",
-  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
-  "tabTrigger": "tcs"
-}

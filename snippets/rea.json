@@ -1,6 +1,0 @@
-{
-  "content": "redirect_to :action => \"${1:index}\"",
-  "name": "redirect_to (action)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "rea"
-}

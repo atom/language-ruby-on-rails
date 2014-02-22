@@ -1,6 +1,0 @@
-{
-  "content": "<% if !${1:list}.blank? %>\n  <% for ${2:item} in ${1} %>\n    $3\n  <% end %>\n<% else %>\n  $4\n<% end %>\n",
-  "name": "for loop in rhtml",
-  "scope": "text.html.ruby",
-  "tabTrigger": "for"
-}

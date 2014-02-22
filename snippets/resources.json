@@ -1,6 +1,0 @@
-{
-  "content": "resources :${1:posts}${2: do\n  $3\nend}",
-  "name": "resources",
-  "scope": "meta.rails.routes",
-  "tabTrigger": "res"
-}

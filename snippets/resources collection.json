@@ -1,6 +1,0 @@
-{
-  "content": "collection do\n  ${1:get :${2:action}}\n  ${3:put :${4:action}}\n  ${5:post :${6:action}}\n  ${7:delete :${8:action}}\nend",
-  "name": "collection routes",
-  "scope": "meta.rails.routes",
-  "tabTrigger": "col"
-}

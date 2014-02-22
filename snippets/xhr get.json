@@ -1,6 +1,0 @@
-{
-  "content": "xhr :get, :${1:show}${2:, :id => ${3:1}}$0",
-  "name": "xhr get",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "xget"
-}

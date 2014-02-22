@@ -1,6 +1,0 @@
-{
-  "content": "params[:${1:id}]",
-  "keyEquivalent": "^p",
-  "name": "params[…]",
-  "scope": "source.ruby.rails"
-}

@@ -1,6 +1,0 @@
-{
-  "content": "find_each(${1::conditions => {:${2:field} => ${3:true}\\}}) do |${4:${TM_CURRENT_WORD/(\\w+)\\./\\L$1/g}}|\n\t$0\nend",
-  "name": "find_each",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "fine"
-}

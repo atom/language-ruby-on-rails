@@ -1,6 +1,0 @@
-{
-  "content": "alias_attribute :${1:new_name}, :${2:old_name}",
-  "name": "alias_attribute",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "alias"
-}

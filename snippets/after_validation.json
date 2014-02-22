@@ -1,6 +1,0 @@
-{
-  "content": "after_validation :${1:field}${2:, :on => :${3:create|update}${4:${5:, :allow_blank => true}${6:, :allow_nil => true}}}$0",
-  "name": "after_validation",
-  "scope": "meta.rails.model",
-  "tabTrigger": "aftv"
-}

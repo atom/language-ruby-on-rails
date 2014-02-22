@@ -1,6 +1,0 @@
-{
-  "content": "<% else %>\n  ",
-  "name": "else (ERB)",
-  "scope": "text.html.ruby",
-  "tabTrigger": "else"
-}

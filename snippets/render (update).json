@@ -1,6 +1,0 @@
-{
-  "content": "render :update do |${2:page}|\n\t$2.$0\nend",
-  "name": "render (update)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "ru"
-}

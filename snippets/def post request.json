@@ -1,6 +1,0 @@
-{
-  "content": "def test_should_post_${1:action}\n\t${3:@$2 = ${4:$2s}(:${5:fixture_name})\n\t}post :${1}${6:, :id => @$2.to_param}, :${2:model} => { $0 }\n\tassert_response :redirect\n\nend",
-  "name": "def test_should_post_action",
-  "scope": "meta.rails.functional_test",
-  "tabTrigger": "deftp"
-}

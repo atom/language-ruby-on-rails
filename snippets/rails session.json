@@ -1,6 +1,0 @@
-{
-  "content": "session[:${1:user}]",
-  "keyEquivalent": "^j",
-  "name": "session[…]",
-  "scope": "source.ruby.rails"
-}

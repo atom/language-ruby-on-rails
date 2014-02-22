@@ -1,6 +1,0 @@
-{
-  "content": "t.timestamp :${1:title}\nt.$0",
-  "name": "t.timestamp (tcts)",
-  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
-  "tabTrigger": "t."
-}

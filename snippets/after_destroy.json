@@ -1,6 +1,0 @@
-{
-  "content": "after_destroy ",
-  "name": "after_destroy",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "aftd"
-}

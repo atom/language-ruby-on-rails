@@ -1,6 +1,0 @@
-{
-  "content": "before_save ",
-  "name": "before_save",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "befs"
-}

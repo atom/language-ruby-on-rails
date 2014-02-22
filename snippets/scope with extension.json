@@ -1,6 +1,0 @@
-{
-  "content": "scope :${1:name}, ${2:where(${3::${4:field} => ${5:'${6:value}'}})} do\n  def ${7:method_name}\n    $0\n  end\nend",
-  "name": "scope with extension",
-  "scope": "meta.rails.model",
-  "tabTrigger": "scopee"
-}

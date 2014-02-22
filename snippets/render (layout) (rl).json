@@ -1,6 +1,0 @@
-{
-  "content": "render :layout => \"${1:layoutname}\"",
-  "name": "render (layout)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "rl"
-}

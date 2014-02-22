@@ -1,6 +1,0 @@
-{
-  "content": "respond_to :${1:html}${2:, :${3:xml}${4:, :${5:json}}}$0",
-  "name": "respond_to",
-  "scope": "meta.rails.controller",
-  "tabTrigger": "rest"
-}

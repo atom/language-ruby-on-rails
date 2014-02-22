@@ -1,6 +1,0 @@
-{
-  "content": "t.column ${1:title}, :${2:string}\nmccc$0",
-  "name": "Create Several Columns in Table",
-  "scope": "meta.rails.migration.create_table",
-  "tabTrigger": "mccc"
-}

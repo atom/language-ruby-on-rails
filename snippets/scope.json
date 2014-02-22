@@ -1,6 +1,0 @@
-{
-  "content": "scope :${1:name}, ${2:joins(:${3:table}).}where(${4:'${5:$3.${6:field}} = ?', ${7:'${8:value}'}})",
-  "name": "scope",
-  "scope": "meta.rails.model",
-  "tabTrigger": "scope"
-}

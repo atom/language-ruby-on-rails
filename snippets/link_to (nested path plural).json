@@ -1,6 +1,0 @@
-{
-  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to ${1:\"${2:link text...}\"}, ${3:${10:parent}_${11:child}_path(${12:@}${13:${10}})}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
-  "name": "link_to (nested path plural)",
-  "scope": "text.html.ruby, text.haml",
-  "tabTrigger": "lt"
-}

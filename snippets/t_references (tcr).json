@@ -1,6 +1,0 @@
-{
-  "content": "t.references :${1:taggable}${2:, :polymorphic => ${3:{ :default => '${4:Photo}' \\}}}\nt.$0",
-  "name": "t.references (tcr)",
-  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
-  "tabTrigger": "t."
-}

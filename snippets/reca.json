@@ -1,6 +1,0 @@
-{
-  "content": "redirect_to :controller => \"${1:items}\", :action => \"${2:list}\"",
-  "name": "redirect_to (controller, action)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "reca"
-}

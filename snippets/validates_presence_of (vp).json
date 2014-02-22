@@ -1,6 +1,0 @@
-{
-  "content": "validates_presence_of :${1:attribute}${2:, :on => :${3:create}, :message => \"${4:can't be blank}\"}",
-  "name": "validates_presence_of",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "vp"
-}

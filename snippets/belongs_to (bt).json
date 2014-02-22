@@ -1,6 +1,0 @@
-{
-  "content": "belongs_to :${1:object}${2:, :class_name => \"${3:${1/[[:alpha:]]+|(_)/(?1::\\u$0)/g}}\", :foreign_key => \"${4:${1}_id}\"}",
-  "name": "belongs_to",
-  "scope": "meta.rails.model",
-  "tabTrigger": "bt"
-}

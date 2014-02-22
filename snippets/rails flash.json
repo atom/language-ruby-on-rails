@@ -1,6 +1,0 @@
-{
-  "content": "flash[:${1:notice}] = \"${2:Successfully created...}\"$0",
-  "name": "flash[…]",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "flash"
-}

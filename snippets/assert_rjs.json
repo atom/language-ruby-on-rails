@@ -1,6 +1,0 @@
-{
-  "content": "assert_rjs :${1:replace}, ${2:\"${3:dom id}\"}",
-  "name": "assert_rjs",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "asrj"
-}

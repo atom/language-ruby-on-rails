@@ -1,6 +1,0 @@
-{
-  "content": "find(:first${1:, :conditions => ['${2:${3:field} = ?}', ${5:true}]})",
-  "name": "find(:first)",
-  "scope": "source.ruby.rails",
-  "tabTrigger": "finf"
-}

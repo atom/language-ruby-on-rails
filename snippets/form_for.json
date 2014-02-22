@@ -1,6 +1,0 @@
-{
-  "content": "${TM_RAILS_TEMPLATE_START_RUBY_INLINE}form_for @${1:model} do |f|${TM_RAILS_TEMPLATE_END_RUBY_INLINE}\n  $0\n${TM_RAILS_TEMPLATE_END_RUBY_BLOCK}",
-  "name": "form_for",
-  "scope": "text.html.ruby, text.haml",
-  "tabTrigger": "ff"
-}
