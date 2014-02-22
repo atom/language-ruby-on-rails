@@ -1,4 +1,9 @@
 # Ruby on Rails language support in Atom
 
-Originally converted from the [Ruby on Rails TextMate bundle](https://github.com/drnic/ruby-on-rails-tmbundle)
-using [bundle2package](https://github.com/atom/bundle2package).
+Adds syntax highlighting and snippets to Rails files in Atom.
+
+Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
+from the [Ruby on Rails TextMate bundle](https://github.com/drnic/ruby-on-rails-tmbundle).
+
+Contributions are greatly appreciated. Please fork this repository and open a
+pull request to add snippets, make grammar tweaks, etc.
