@@ -439,7 +439,7 @@
     'body': '<% if !${1:list}.blank? %>\n  <% for ${2:item} in ${1} %>\n    $3\n  <% end %>\n<% else %>\n  $4\n<% end %>\n'
   'if (ERB)':
     'prefix': 'if'
-    'body': '<% if ${1:condition} %>$0'
+    'body': '<% if ${1:condition} %>\n  $0\n<% end %>'
 '.meta.rails.controller':
   'format (respond_with)':
     'prefix': 'format'
@@ -504,6 +504,9 @@
     'prefix': 'vis'
     'body': 'page.visual_effect :${1:toggle_slide}, ${2:"${3:DOM ID}"}'
 '.source.ruby.rails, .text.html.ruby, .text.haml':
+  'link_to':
+    'prefix': 'lt'
+    'body': '<%= link_to "${1:name}", ${2:path} %>'
   'render (partial)':
     'prefix': 'rp'
     'body': 'render :partial => "${1:item}"'
