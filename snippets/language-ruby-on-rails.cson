@@ -450,6 +450,12 @@
   'respond_with':
     'prefix': 'resw'
     'body': 'respond_with(${1:@${2:model}})${3: do |format|\n  format.${4:html} { $0 \\}\nend}'
+  'params':
+    'prefix': 'p'
+    'body': 'params[:${1:id}]$0'
+  'session':
+    'prefix': 'sess'
+    'body': 'session[:${1:user}]$0'
 '.meta.rails.routes':
   'get :on => :member':
     'prefix': 'get'
