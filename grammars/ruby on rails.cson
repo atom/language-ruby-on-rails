@@ -1,3 +1,4 @@
+'scopeName': 'source.ruby.rails'
 'fileTypes': [
   'rb'
   'rxml'
@@ -190,4 +191,3 @@
     'include': 'source.ruby'
   }
 ]
-'scopeName': 'source.ruby.rails'
