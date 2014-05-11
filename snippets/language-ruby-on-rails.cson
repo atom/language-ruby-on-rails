@@ -146,6 +146,9 @@
   'assert_select':
     'prefix': 'ass'
     'body': 'assert_select \'${1:path}\'${2:, :${3:text} => ${4:\'${5:inner_html}\'}}${6: do\n\t$0\nend}'
+  'before_action':
+    'prefix': 'ba'
+    'body': 'before_action: '
   'before_create':
     'prefix': 'befc'
     'body': 'before_create '
