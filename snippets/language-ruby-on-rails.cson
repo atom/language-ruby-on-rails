@@ -403,6 +403,9 @@
   'before_validation':
     'prefix': 'befv'
     'body': 'before_validation :${1:field}${2:, :on => :${3:create|update}${4:${5:, :allow_blank => true}${6:, :allow_nil => true}}}$0'
+  'belongs_to':
+    'prefix': 'bt'
+    'body': 'belongs_to :${1:object}${2:, :class_name => "${1}", :foreign_key => "${4:reference}_id"}'
   'default_scope':
     'prefix': 'dscope'
     'body': 'default_scope ${1:order(${2:\'${3:created_at DESC}\'})}'
@@ -418,6 +421,12 @@
   'has_many :dependent => :destroy':
     'prefix': 'hmd'
     'body': 'has_many :${1:object}s${2:, :class_name => "${1}", :foreign_key => "${4:reference}_id"}, :dependent => :destroy$0'
+  'has_one':
+    'prefix': 'ho'
+    'body': 'has_one :${1:object}${2:, :class_name => "${1}", :dependent => :destroy}'
+  'has_one (through)':
+    'prefix': 'hot'
+    'body': 'has_one :${1:object}, :through => :${2:join_association}${3:, :source => :${4:${2}_table_foreign_key_to_${1}_table}}'
   'scope lambda':
     'prefix': 'scopel'
     'body': 'scope :${1:name}, lambda { |${2:param}| ${3:where(${4::${5:field} => ${6:"${7:value}"}})} }'
