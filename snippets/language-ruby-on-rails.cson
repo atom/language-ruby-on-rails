@@ -521,10 +521,11 @@
   'page.visual_effect (effect, id)':
     'prefix': 'vis'
     'body': 'page.visual_effect :${1:toggle_slide}, ${2:"${3:DOM ID}"}'
-'.source.ruby.rails, .text.html.ruby, .text.haml':
+'.source.ruby.rails, .text.html.ruby, .text.haml, .source.js.rails':
   'erb_render_block':
     'prefix': '='
     'body': '<%= $1 %>'
+'.source.ruby.rails, .text.html.ruby, .text.haml':
   'erb_exec_block':
     'prefix': '-'
     'body': '<% $1 %>'
