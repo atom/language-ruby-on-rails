@@ -537,16 +537,16 @@
     'body': '<%= link_to "${1:name}", ${2:path} %>'
   'render (partial)':
     'prefix': 'rp'
-    'body': 'render :partial => "${1:item}"'
+    'body': '<%= render "${1:item}" %>'
   'render (partial, collection)':
     'prefix': 'rpc'
-    'body': 'render :partial => "${1:item}", :collection => ${2:@$1s}'
+    'body': '<%= render "${1:item}", :collection => ${2:@$1s} %>'
   'render (partial, locals)':
     'prefix': 'rpl'
-    'body': 'render :partial => "${1:item}", :locals => { :${2:$1} => ${3:@$1}$0 }'
+    'body': '<%= render "${1:item}", :locals => { :${2:$1} => ${3:@$1}$0 } %>'
   'render (partial, object)':
     'prefix': 'rpo'
-    'body': 'render :partial => "${1:item}", :object => ${2:@$1}'
+    'body': '<%= render "${1:item}", :object => ${2:@$1} %>'
   'render (partial, status)':
     'prefix': 'rps'
-    'body': 'render :partial => "${1:item}", :status => ${2:500}'
+    'body': '<%= render "${1:item}", :status => ${2:500} %>'
