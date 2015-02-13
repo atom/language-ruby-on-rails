@@ -1,9 +1,10 @@
+'scopeName': 'source.js.rails source.js.jquery'
+'name': 'JavaScript (Rails)'
 'fileTypes': [
   'js.erb'
 ]
 'foldingStartMarker': '/\\*\\*|\\{\\s*$'
 'foldingStopMarker': '\\*\\*/|^\\s*\\}'
-'name': 'JavaScript (Rails)'
 'patterns': [
   {
     'begin': '<%+#'
@@ -37,4 +38,3 @@
     'include': 'source.js'
   }
 ]
-'scopeName': 'source.js.rails source.js.jquery'

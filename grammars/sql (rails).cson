@@ -1,10 +1,11 @@
+'scopeName': 'source.sql.ruby'
+'name': 'SQL (Rails)'
 'fileTypes': [
   'erbsql'
   'sql.erb'
 ]
 'foldingStartMarker': '\\s*\\(\\s*$'
 'foldingStopMarker': '^\\s*\\)'
-'name': 'SQL (Rails)'
 'patterns': [
   {
     'begin': '<%+(?!>)=?'
@@ -24,4 +25,3 @@
     'include': 'source.sql'
   }
 ]
-'scopeName': 'source.sql.ruby'
