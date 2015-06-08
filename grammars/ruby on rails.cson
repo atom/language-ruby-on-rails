@@ -159,7 +159,7 @@
     ]
   }
   {
-    'begin': '(^\\s*)\\w*::Application.routes.draw|(^\\s*)\\w*::Application.routes.draw|(^\\s*)ActionController::Routing::Routes'
+    'begin': '(^\\s*)\\w*::Application.routes.draw|(^\\s*)ActionController::Routing::Routes|(^\\s*)Rails.application.routes.draw'
     'comment': 'Uses ::Application.routes.draw to determine it is a routes file; includes \'source.ruby\' to avoid infinite recursion'
     'end': '^\\1(?=end)\\b'
     'name': 'meta.rails.routes'
