@@ -38,6 +38,9 @@
   'Table column timestamp':
     'prefix': 'tcts'
     'body': 't.timestamp :${1:title}\n$0'
+  'Table column comments':
+    'prefix' 'multiple_comments'
+     'body':'=begin\n   ${0:your commentary}\n=end'
   'Table column timestamps':
     'prefix': 'tctss'
     'body': 't.timestamps\n$0'
