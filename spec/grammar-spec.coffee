@@ -27,3 +27,21 @@ describe "Ruby on Rails package", ->
     grammar = atom.grammars.grammarForScopeName("source.sql.ruby")
     expect(grammar).toBeDefined()
     expect(grammar.scopeName).toBe "source.sql.ruby"
+
+
+  describe 'inline sql', ->
+    it 'tokenizes the content inside where string queries as SQL', ->
+      grammar = atom.grammars.grammarForScopeName("source.ruby.rails")
+      lines = grammar.tokenizeLines '''
+        Post.where('created_at IS NOT NULL created_at > ?', Time.now)
+      '''
+
+      expect(lines[0][2]).toEqual value: 'created_at IS NOT NULL created_at > ?', scopes: ['source.ruby.rails', 'meta.rails.query_methods.sql']
+
+
+    it 'tokenizes the content inside order string queries as SQL', ->
+      grammar = atom.grammars.grammarForScopeName("source.ruby.rails")
+      lines = grammar.tokenizeLines '''
+        Post.order("case when sticky = 'yes' then 1 else 0 end desc, created desc")
+      '''
+      expect(lines[0][2]).toEqual value: "case when sticky = 'yes' then 1 else 0 end desc, created desc", scopes: ['source.ruby.rails', 'meta.rails.query_methods.sql']
