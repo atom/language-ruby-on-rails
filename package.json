@@ -1,6 +1,6 @@
 {
   "name": "language-ruby-on-rails",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "Ruby on Rails language support in Atom",
   "license": "MIT",
   "engines": {
