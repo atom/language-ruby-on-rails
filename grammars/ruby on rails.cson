@@ -177,7 +177,7 @@
     'name': 'support.function.actionpack.rails'
   }
   {
-    'match': '\\b(check_box|content_for|error_messages_for|form_for|fields_for|file_field|hidden_field|image_submit_tag|label|link_to|password_field|radio_button|submit|text_field|text_area)\\b'
+    'match': '\\b(check_box|content_for|error_messages_for|form_for|fields_for|file_field|hidden_field|image_submit_tag|label|link_to|password_field|radio_button|submit|text_field|text_area|email_field|search_field|telephone_field|date_field|datetime_field|datetime_local_field|month_field|week_field|time_field|url_field|color_field|number_field|range_field)\\b'
     'name': 'support.function.viewhelpers.rails'
   }
   {
