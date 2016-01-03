@@ -54,8 +54,8 @@
     ]
   }
   {
-    'begin': '(^\\s*)(?=class\\s+(([.a-zA-Z0-9_:]+(\\s*<\\s*ActionMailer::Base))))'
-    'comment': 'Uses lookahead to match classes that inherit from ActionMailer::Base; includes \'source.ruby\' to avoid infinite recursion'
+    'begin': '(^\\s*)(?=class\\s+(([.a-zA-Z0-9_:]+(\\s*<\\s*(ActionMailer::Base|ApplicationMailer)))))'
+    'comment': 'Uses lookahead to match classes that inherit from ActionMailer::Base or ApplicationMailer; includes \'source.ruby\' to avoid infinite recursion'
     'end': '^\\1(?=end)\\b'
     'name': 'meta.rails.mailer'
     'patterns': [
@@ -68,8 +68,8 @@
     ]
   }
   {
-    'begin': '(^\\s*)(?=class\\s+.+ActiveRecord::Base)'
-    'comment': 'Uses lookahead to match classes that (may) inherit from ActiveRecord::Base; includes \'source.ruby\' to avoid infinite recursion'
+    'begin': '(^\\s*)(?=class\\s+.+(ActiveRecord::Base|ApplicationRecord))'
+    'comment': 'Uses lookahead to match classes that (may) inherit from ActiveRecord::Base or ApplicationRecord; includes \'source.ruby\' to avoid infinite recursion'
     'end': '^\\1(?=end)\\b'
     'name': 'meta.rails.model'
     'patterns': [
