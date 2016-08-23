@@ -170,6 +170,9 @@
   'cattr_accessor':
     'prefix': 'crw'
     'body': 'cattr_accessor :${0:attr_names}'
+  'classify { |e| .. }':
+    'prefix': 'cl'
+    'body': 'classify { |${1:e}| $0 }'
   'find(:all)':
     'prefix': 'fina'
     'body': 'find(:all${1:, :conditions => [\'${2:${3:field} = ?}\', ${5:true}]})'
