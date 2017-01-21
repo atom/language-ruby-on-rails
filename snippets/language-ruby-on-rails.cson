@@ -146,6 +146,9 @@
   'assert_select':
     'prefix': 'ass'
     'body': 'assert_select \'${1:path}\'${2:, :${3:text} => ${4:\'${5:inner_html}\'}}${6: do\n\t$0\nend}'
+  'assert_template':
+    'prefix': 'aste'
+    'body': 'assert_template \'${1:template}\''
   'before_action':
     'prefix': 'ba'
     'body': 'before_action :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}'
