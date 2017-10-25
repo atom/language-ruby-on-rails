@@ -177,7 +177,7 @@
     'name': 'support.function.actionpack.rails'
   }
   {
-    'match': '\\b(check_box|color_field|content_for|date_field|datetime_field|datetime_local_field|email_field|error_messages_for|fields_for|file_field|form_for|hidden_field|image_submit_tag|label|link_to|month_field|number_field|password_field|radio_button|range_field|search_field|submit|telephone_field|text_area|text_field|time_field|url_field|week_field)\\b'
+    'match': '\\b(check_box|color_field|content_for|date_field|datetime_field|datetime_local_field|email_field|error_messages_for|fields_for|file_field|form_for|hidden_field|image_submit_tag|image_tag|label|link_to|month_field|number_field|password_field|radio_button|range_field|search_field|submit|telephone_field|text_area|text_field|time_field|url_field|week_field)\\b'
     'name': 'support.function.viewhelpers.rails'
   }
   {
