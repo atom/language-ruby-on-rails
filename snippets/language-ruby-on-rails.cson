@@ -480,6 +480,9 @@
   'session':
     'prefix': 'sess'
     'body': 'session[:${1:user}]$0'
+  'skip_before_action':
+    'prefix': 'skipba'
+    'body': 'skip_before_action :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}'
 '.meta.rails.routes':
   'get :on => :member':
     'prefix': 'get'
