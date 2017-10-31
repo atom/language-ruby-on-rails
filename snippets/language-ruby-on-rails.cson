@@ -459,6 +459,12 @@
   'before_action':
     'prefix': 'ba'
     'body': 'before_action :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}'
+  'around_action':
+    'prefix': 'ara'
+    'body': 'around_action :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}'
+  'after_action':
+    'prefix': 'afa'
+    'body': 'after_action :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}'
   'format (respond_with)':
     'prefix': 'format'
     'body': 'format.${1:html|xml|json|js|any} { $0 }'
