@@ -439,6 +439,30 @@
   'scope':
     'prefix': 'scope'
     'body': 'scope :${1:name}, ${2:joins(:${3:table}).}where(${4:\'${5:$3.${6:field}} = ?\', ${7:\'${8:value}\'}})'
+  'validates :acceptance':
+    'prefix': 'valida'
+    'body': 'validates :${1:terms_of_service}, acceptance: ${2:true}$3'
+  'validates :confirmation':
+    'prefix': 'validc'
+    'body': 'validates :${1:email}, confirmation: ${2:true}$3'
+  'validates :exclusion':
+    'prefix': 'valide'
+    'body': 'validates :${1:subdomain}, exclusion: { in: %w(${2:www us ca jp})${3:, message: \'$4\'} }$5'
+  'validates :format':
+    'prefix': 'validf'
+    'body': 'validates :${1:legacy_code}, format: { with: /$2/${3:, message: \'$4\'} }$5'
+  'validates :inclusion':
+    'prefix': 'validi'
+    'body': 'validates :${1:size}, inclusion: { in: %w(${2:small medium large})${3:, message: \'$4\'} }$5'
+  'validates :length':
+    'prefix': 'validl'
+    'body': 'validates :${1:name}, length: { ${2:option1}: ${3:value1}${4:, ${5:option2}: ${6:value2}} }$7'
+  'validates :presence':
+    'prefix': 'validp'
+    'body': 'validates :${1:username}, presence: true$2'
+  'validates :uniqueness':
+    'prefix': 'validu'
+    'body': 'validates :${1:email}, uniqueness: true$2'
 '.text.html.ruby':
   'content_for':
     'prefix': 'conf'
