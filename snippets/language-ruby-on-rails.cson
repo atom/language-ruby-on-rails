@@ -149,9 +149,6 @@
   'assert_template':
     'prefix': 'aste'
     'body': 'assert_template \'${1:template}\''
-  'before_action':
-    'prefix': 'ba'
-    'body': 'before_action :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}'
   'before_create':
     'prefix': 'befc'
     'body': 'before_create '
@@ -459,6 +456,9 @@
     'prefix': 'if'
     'body': '<% if ${1:condition} %>\n  $0\n<% end %>'
 '.meta.rails.controller':
+  'before_action':
+    'prefix': 'ba'
+    'body': 'before_action :${1:method}${2:${3:, :only => ${4:[:${5:action}, :${6:action}]}}${7:, :except => ${8:[:${9:action}, :${10:action}]}}}'
   'format (respond_with)':
     'prefix': 'format'
     'body': 'format.${1:html|xml|json|js|any} { $0 }'
